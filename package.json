@@ -23,5 +23,9 @@
     "@remix-run/vite": "^2.13.1",
     "esbuild": "0.25.4",
     "vite": "^5.4.8"
+  },
+
+  "engines": {
+    "node": "22.x"
   }
 }
