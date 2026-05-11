@@ -1,0 +1,67 @@
+# =========================
+# 📦 DEPENDENCIES
+# =========================
+node_modules
+.pnp
+.pnp.js
+
+# =========================
+# 🔥 BUILD OUTPUT
+# =========================
+build
+dist
+.cache
+.vercel
+.output
+
+# =========================
+# ⚙️ ENV FILES (VERY IMPORTANT)
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# 🧠 LOG FILES
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# 🖥 SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔐 FIREBASE / SECRETS
+# =========================
+firebase-debug.log
+firebase-debug.*.log
+
+# =========================
+# 🧪 TEST / COVERAGE
+# =========================
+coverage
+
+# =========================
+# 📱 REMIX / CACHE
+# =========================
+.remix
+*.tsbuildinfo
+
+# =========================
+# 🧠 IDE FILES
+# =========================
+.vscode
+.idea
+
+# =========================
+# 🖼 IMAGE / MEDIA TEMP FILES
+# =========================
+*.log
+*.tmp
