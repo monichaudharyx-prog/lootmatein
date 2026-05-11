@@ -2,13 +2,11 @@
   "name": "lootmate",
   "private": true,
   "type": "module",
-
   "scripts": {
-    "dev": "remix vite:dev",
-    "build": "remix vite:build",
-    "start": "remix-serve build/index.js"
+    "dev": "remix dev",
+    "build": "remix build",
+    "start": "remix-serve build"
   },
-
   "dependencies": {
     "@remix-run/node": "^2.13.1",
     "@remix-run/react": "^2.13.1",
@@ -17,15 +15,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-
   "devDependencies": {
     "@remix-run/dev": "^2.13.1",
-    "@remix-run/vite": "^2.13.1",
-    "esbuild": "0.25.4",
-    "vite": "^5.4.8"
-  },
-
-  "engines": {
-    "node": "22.x"
+    "esbuild": "^0.25.4"
   }
 }
