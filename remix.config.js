@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   appDirectory: "app",
   assetsBuildDirectory: "public/build",
   serverBuildPath: "build/index.js",
